@@ -1,0 +1,200 @@
+.b{
+    color:#22a6b3;
+    color:#7ed6df;
+    color:#dff9fb;
+    color:#30336b;
+    color:#130f40;
+    color:#273c75;
+}
+
+
+.header{
+    background: linear-gradient(to bottom, #130f40, #7ed6df);
+    width: 1366px;
+    height: 900px;
+    
+}
+.titre-skynet{
+    color: rgba(255, 255, 255, 0.1);
+    margin: 0;
+    position: absolute;
+    top: 256px;
+    left: 50px;
+    letter-spacing: 20px;
+    font-size: 103px;
+    font-family: unset;
+    z-index: 1;
+}
+/* groupe de rond */
+.rond3{
+    width: 10px;
+    height: 10px;
+    background: #1e90ff;
+    position: absolute;
+    top: 255px;
+    left: 100px;
+    border-radius: 10px; ;
+}
+.rond4{
+    width: 10px;
+    height: 10px;
+    background: #70a1ff;
+    position: absolute;
+    top: 255px;
+    left: 81px;
+    border-radius: 10px; 
+}
+.rond5{
+    width: 10px;
+    height: 10px;
+    background: #70a1ff;
+    position: absolute;
+    top: 255px;
+    left: 60px;
+    border-radius: 10px; 
+}
+/* fin groupe de rond */
+.trait-vertical{
+    width: 4px;
+    height: 98px;
+    background: white;
+    position: absolute;
+    top: 262px;
+    left: 222px;
+}
+.titre-principal::first-letter{
+    font-size: 61px;
+}
+.trait-vertical-1{
+    width: 4px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    top: 52px;
+    left: 375px;
+    animation-name: trait;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes trait{
+    0%{
+        top: -100px;
+    }
+    100%{
+        top:52px ;
+    }
+}
+.a{
+    color: yellowgreen;
+    float: left;
+    font-family: unset;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 74px;
+    margin-top: 100px;
+}
+.a:hover{
+    text-decoration: none;
+    color: white;
+    float: left;
+    font-family: unset;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 74px;
+}
+.innovative{
+    position: absolute;
+    top: 60px;
+    left: 399px;
+    color: yellowgreen;
+    font-size: 23px;
+    animation-name: innovative;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes innovative{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.titre-principal{
+    color: white;
+    margin: 0;
+    padding: 35px 0 20px 20px;
+    /* font-size: -webkit-xxx-large; */
+    font-size: 36px;
+    font-family: unset;
+    position: absolute;
+    animation: titre;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes titre{
+    0%{
+        
+        left: -400px;
+    }
+    100%{
+        position: absolute;
+        left: 8px;
+    }
+}
+.creative{
+    position: absolute;
+    top: 303px;
+    left: 230px;
+    color: white;
+    font-style: italic;
+    font-family: unset;
+    font-size: initial;
+}
+.rond1{
+    width: 72px;
+    height: 70px;
+    border-radius: 53px;
+    background: linear-gradient(to bottom, #130f40, #7ed6df);
+    position: absolute;
+    top: 347px;
+    left: 42px;
+    z-index: 3;
+    animation-name: rond1;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes rond1{
+    0%{
+        left:42px ;
+    }
+    50%{
+        left: 160px;
+    }
+    100%{
+        left: 42px;
+    }
+}
+.rond2{
+    width: 56px;
+    height: 56px;
+    border-radius: 29px;
+    background: linear-gradient(to bottom, #130f40, #7ed6df);
+    position: absolute;
+    top: 317px;
+    left: 79px;
+    animation-name: rond2;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes rond2{
+    0%{
+        left:79px ;
+    }
+    50%{
+        left: 10px;
+    }
+    100%{
+        left: 79px;
+    }
+}
