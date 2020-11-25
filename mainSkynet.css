@@ -92,15 +92,137 @@
     font-size: 13px;
     padding: 74px;
     margin-top: 100px;
+    margin-left: 132px;
+    padding: 74px 2px 10px 0px;
 }
 .a:hover{
-    text-decoration: none;
+    /* text-decoration: none;
     color: white;
     float: left;
     font-family: unset;
     font-weight: bold;
     font-size: 13px;
-    padding: 74px;
+    padding: 74px; */
+    text-decoration: none;
+    margin-left: 132px;
+    color: white;
+    float: left;
+    font-family: unset;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 74px 2px 10px 0px;
+    border-bottom: 4px solid lime;
+}
+.trait_home{
+    width: 106px;
+    height: 5px;
+    background: lime;
+    position: absolute;
+    top: 205px;
+    left: 40px;
+    display: none;
+}
+.trait_home:hover{
+    width: 106px;
+    height: 5px;
+    background: lime;
+    position: absolute;
+    top: 205px;
+    left: 40px;
+    display: inherit;
+}
+.trait_java{
+    width: 106px;
+    height: 5px;
+    background: lime;
+    position: absolute;
+    top: 205px;
+    left: 233px;
+    display: none;
+}
+.trait_java:hover{
+    width: 106px;
+    height: 5px;
+    background: lime;
+    position: absolute;
+    top: 205px;
+    left: 233px;
+    display: inherit;
+}
+.trait_reseau{
+    width: 158px;
+    height: 5px;
+    background: lime;
+    position: absolute;
+    top: 205px;
+    left: 444px;
+    display: none;
+}
+.trait_reseau:hover{
+    width: 158px;
+    height: 5px;
+    background: lime;
+    position: absolute;
+    top: 205px;
+    left: 444px;
+    display: inherit;
+}
+
+.trait_base{
+    width: 158px;
+    height: 5px;
+    background: lime;
+    position: absolute;
+    top: 205px;
+    left: 704px;
+    display: none;
+}
+.trait_base:hover{
+    width: 158px;
+    height: 5px;
+    background: lime;
+    position: absolute;
+    top: 205px;
+    left: 704px;
+    display: inherit;
+}
+.trait_web{
+    width: 145px;
+    height: 5px;
+    background: lime;
+    position: absolute;
+    top: 205px;
+    left: 943px;
+    display: none;
+}
+.trait_web:hover{
+    width: 145px;
+    height: 5px;
+    background: lime;
+    position: absolute;
+    top: 205px;
+    left: 943px;
+    display: inherit;
+}
+.trait_php{
+    width: 78px;
+    height: 5px;
+    background: lime;
+    position: absolute;
+    top: 205px;
+    left: 1170px;
+    display: none;
+    
+}
+.trait_php:hover{
+    width: 78px;
+    height: 5px;
+    background: lime;
+    position: absolute;
+    top: 205px;
+    left: 1170px;
+    display: inherit;
+    
 }
 .innovative{
     position: absolute;
